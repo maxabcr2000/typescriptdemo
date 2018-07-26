@@ -1,10 +1,12 @@
 # Typescript Demo
 
-Practice for importing javavscript modules in typescript without typing(using .d.ts files) and useing wepback to generate js bundle
+Practice for importing javavscript modules in typescript without typing(using .d.ts files) and using wepback to generate js bundle
 
 ## Notes
   1. For importing from node_modules, use "import = require" pattern
   * import Web3 = require('../node_modules/web3/src/index');
+  
+  2. Change 
 
 ## Development mode
   * run `npm run dev`. 
