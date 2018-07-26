@@ -1,0 +1,37 @@
+{
+  "name": "webpack-umd-starter",
+  "version": "0.1.0",
+  "description": "Creates UMD with es6 and Webpack",
+  "main": "build/libName.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "dev": "webpack --progress --colors --watch --mode=development"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.0",
+    "babel-core": "6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-loader": "7.1.2",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "4.11.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-loader": "1.9.0",
+    "eslint-plugin-react": "^7.8.2",
+    "hard-source-webpack-plugin": "^0.11.2",
+    "typescript": "^2.9.2",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0",
+    "yargs": "^10.1.2"
+  },
+  "keywords": [
+    "webpack",
+    "es6",
+    "universal",
+    "umd"
+  ],
+  "dependencies": {
+    "@types/web3": "^1.0.1",
+    "web3": "^1.0.0-beta.34"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "typeRoots" : ["./typings", "./node_modules/@types/"],
+        "noImplicitAny": false,
+        "removeComments": true,
+    },
+    "awesomeTypescriptLoaderOptions": {
+        "useCache": true
+    },
+    "exclude":[
+        "./node_modules/@types/*"
+    ]
+}
